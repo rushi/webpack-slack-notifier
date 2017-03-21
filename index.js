@@ -13,7 +13,7 @@ SlackPlugin.prototype.apply = function(compiler) {
 
     var self = this;
     compiler.plugin('done', function() {
-        console.log('Sending a slack message to', self.channel);
+        console.log('Sending a slack message to', self.options.channel);
         slack.webhook(self.options, function(err, response) {
             if (err) {
                 console.log('Error', err);
