@@ -1,6 +1,6 @@
 {
   "name": "webpack-slack-notifier",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Send a slack notification message using webpack",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,8 @@
     "url": "https://github.com/rushi/webpack-slack-notifier.git"
   },
   "keywords": [
-      "slack",
-      "webpack"
+    "slack",
+    "webpack"
   ],
   "author": "Rushi Vishavadia <rushi.v@gmail.com>",
   "license": "MIT",
