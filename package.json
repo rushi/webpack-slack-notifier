@@ -1,6 +1,6 @@
 {
   "name": "webpack-slack-notifier",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Send a slack notification message using webpack",
   "main": "index.js",
   "scripts": {
